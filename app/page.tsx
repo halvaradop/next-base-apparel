@@ -3,7 +3,13 @@ import heroDesktop from "@/public/hero-desktop.jpg"
 import Image from "next/image"
 import { FollowForm } from "@/ui/follow-form"
 
-
+/**
+ * Displays an interactive form where users can register to receive updates
+ * about the latest versions and features introduced on the page.
+ * The form provides a simple, interactive, and creative user experience.
+ * 
+ * @returns {React.ReactNode} A React element that display the main page
+ */
 const Home = () => {
  
     return (
