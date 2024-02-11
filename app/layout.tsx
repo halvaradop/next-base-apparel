@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Josefin_Sans } from "next/font/google";
-import "./globals.css";
+import { Header } from "@/ui/header";
+import "@/ui/globals.css";
 
 const inter = Josefin_Sans({ 
   weight: ["300", "400", "600"],
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

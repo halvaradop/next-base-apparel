@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+    :is(button, input, option, select):focus {
+        outline: none;
+    }
+
+    form label input[type="email"]:invalid + div > img.hidden {
+        display: block;
+    } 
+}
