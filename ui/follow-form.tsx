@@ -5,8 +5,13 @@ import { Input } from "@/ui/custom/input"
 import arrowIcon from "@/public/icon-arrow.svg"
 import wrongIcon from "@/public/icon-error.svg"
 
-const emailRegex = new RegExp('^[A-Za-z0-9.\\+\\#><\\$\\!&\\(\\)]+\\@[gmail|hotmail|outlook]\\.(com|co)$')
 
+/**
+ * This form allows users to register on the website to receive updates
+ * and stay informed about the latest news and events.
+ * 
+ * @returns {React.ReactNode} A react element that renders a form
+ */
 const FollowForm = () => {
     const [email, setEmail] = useState("")
 
