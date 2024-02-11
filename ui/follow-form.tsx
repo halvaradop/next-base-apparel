@@ -25,7 +25,7 @@ const FollowForm = () => {
     }
 
     return (
-        <form className="w-full max-w-sm mx-auto mt-8" onSubmit={handleSubmit}>
+        <form className="w-full max-w-sm mx-auto mt-8 base:ml-0" onSubmit={handleSubmit}>
             <label className="block relative" htmlFor="email">
                 <Input className="peer indent-4" type="email" value={email} size="3xl" color="red" name="email" placeholder="Email Address" onChange={handleChangeEmail} />
                 <div className="w-min flex items-center justify-center absolute top-0 right-0 z-10">

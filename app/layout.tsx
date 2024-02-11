@@ -41,9 +41,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        {children}
+      <body className={`${inter.className} antialiased`}>
+        <div className="base:h-screen base:grid base:relative">
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );

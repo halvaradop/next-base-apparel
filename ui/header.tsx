@@ -9,8 +9,8 @@ import Image from "next/image"
 const Header = () => {
 
     return (
-        <header>
-            <nav className="w-11/12 h-20 mx-auto flex items-center">
+        <header className="base:w-[60vw]">
+            <nav className="w-11/12 h-20 mx-auto flex items-center base:w-2/3">
                 <Image width={120} height={50} src={logo} alt="logo icon" priority />
             </nav>
         </header>

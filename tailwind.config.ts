@@ -13,6 +13,9 @@ const config: Config = {
   },
   theme: {
     extend: {
+      screens: {
+        base: '900px'
+      },
       colors: {
         red: {
           DEFAULT: 'hsl(0, 36%, 70%)',
