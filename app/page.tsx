@@ -18,7 +18,7 @@ const Home = () => {
                 <Image className="base:hidden" width={900} height={500} src={heroMobile} alt="hero version mobiel" priority />
                 <Image className="hidden base:w-[40vw] base:h-full base:block base:absolute base:top-0 base:right-0" src={heroDesktop} alt="hero version desktop" priority />
             </figure>
-            <section className="w-11/12 mx-auto mt-10 mb-16 text-red text-center sm:mt-12 md:mt-14 md:mb-20 base:w-2/3 base:text-start">
+            <section className="w-11/12 mx-auto mt-10 mb-16 text-red text-center sm:mt-12 md:mt-14 md:mb-20 base:w-2/3 base:my-0 base:text-start">
                 <div>
                     <div className="mb-4 text-[clamp(3rem,_15vw,_3.6rem)] leading-none tracking-widest uppercase sm:mb-6 md:mb-8 base:text-[clamp(3.6rem,_16vw,_5rem)]">
                         <h1 className="font-light">we're</h1>
